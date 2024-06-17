@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body>
+    
+    
+    <nav id="menu-h">
+        <ul>        
+      <li> 
+          <a href="file:///home/escola/Documentos/trabalhodephp_1t-main/index.html">
+           Home
+      </a>
+      
+      <li><a href="https://web.whatsapp.com/">
+        Suporte 
+     </a>
+ </li>   
+    
+    </nav>        
+   
+    <div class="wrapper">
+    <form action="#">
+        <h1><center> Cadastro </center></h1>
+    
+        <label for="Email">Email:</label>
+        <input type="" id="Email" name="Email"  required>
+    
+        <label for="senha">senha:</label>
+        <input type="" id="senha" name="senha"  required>
+    
+        
+           
+        </select>
+
+        <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="xx xxxxx-xxxx" required>
+    
+<br>
+
+        <button type="submit">cadastrar</button>    
+    
+    
+    
+    </form>
+</div>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-65deg, #ffffff, #ada7a6, #7ed8e3);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgb(19, 227, 230);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+    background: transparent;
+    color:white;
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+    background: transparent;
+    color:rgb(9, 226, 82);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: #3a413a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1bad1b;
+}
+
+body{
+   background-color: aliceblue; 
+
+
+}
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+/* Estilo do contêiner */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do grupo de formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo do rótulo */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Estilo do campo de entrada */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão de envio */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* aqui em cima e outra coisa do codigo!! */
+
+
+
+
+
+/* Hover do botão de envio */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #07e479; /* Nova cor para o botão */
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Hover do botão de envio */
+input[type="submit"]:hover {
+    background-color: #0dd951; /* Nova cor para o botão quando em hover */
+}
+  
+
+
+
+
+
+
+
+
+
+
+</style>
+</body>
+</html>
